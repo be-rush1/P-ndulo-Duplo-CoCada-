@@ -92,19 +92,12 @@ def pendulo_duplo(theta1, theta2):
         thetatt2 = (num5 * (num6 + num7 + num8)) / den
 
 
-
-
-
         thetat1 += thetatt1 * dt
         thetat2 += thetatt2 * dt
         theta1 += thetat1 * dt
         theta2 += thetat2 * dt
-
-
-
         mover_pendulo_duplo(theta1,theta2)
         time.sleep(0.01)
-
     pygame.quit()
 
 def diferença_finita_seg_der(it):
@@ -139,21 +132,8 @@ if __name__ == "__main__":
     running = True
 
     while running:
-        # poll for events
-        # pygame.QUIT event means the user clicked X to close your window
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-
-        # fill the screen with a color to wipe away anything from last frame
-
-
-            # RENDER YOUR GAME HERE
-
         pendulo_duplo(math.pi/3, -4*math.pi/9)
-        # flip() the display to put your work on screen
-
-
-          # limits FPS to 60
-
     pygame.quit()
