@@ -1,4 +1,4 @@
-Projeto final da disciplina "Computação Científica e Análise de Dados" - (ICP 248), consistem em um simulador de pêndulo simples e de um pêndulo duplo. O código está contido em main.py e renderiza uma animação do pêndulo usando a biblioteca PyGame. 
+Projeto final da disciplina "Computação Científica e Análise de Dados" - (ICP 248), consiste em um simulador de pêndulo simples e de um pêndulo duplo. O código está contido em main.py e renderiza uma animação do pêndulo usando a biblioteca PyGame. 
 
 Resultado Pêndulo Simples : 
 
